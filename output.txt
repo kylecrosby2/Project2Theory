@@ -1,0 +1,168 @@
+Machine Name: a+ Deterministic
+Initial String: aaa
+Tree Depth: 5
+Total Transitions Simulated: 11
+Measured nondeterminism: 2.2
+String accepted in 5
+q1aaa 
+aq1aa aq2aa 
+aaq1a aaq2a aaqreja 
+aaaq1_ aaaq2_ aaaqrej_ 
+aaa_qrej_ aaa_qacc_ 
+
+
+Machine Name: a plus
+Initial String: aaa
+Tree Depth: 5
+Total Transitions Simulated: 11
+Measured nondeterminism: 2.2
+String accepted in 5
+q1aaa 
+aq1aa aq2aa 
+aaq1a aaq2a aqrejectaa 
+aaaq1_ aaaq2_ aaqrejecta 
+aaaqreject_ aaq3a_ 
+
+
+Machine Name: a plus
+Initial String: aaaaa
+Tree Depth: 7
+Total Transitions Simulated: 17
+Measured nondeterminism: 2.4285714285714284
+String accepted in 7
+q1aaaaa 
+aq1aaaa aq2aaaa 
+aaq1aaa aaq2aaa aqrejectaaaa 
+aaaq1aa aaaq2aa aaqrejectaaa 
+aaaaq1a aaaaq2a aaaqrejectaa 
+aaaaaq1_ aaaaaq2_ aaaaqrejecta 
+aaaaaqreject_ aaaaq3a_ 
+
+
+Machine Name: {w | w has the same number of 0's and 1's} Nondeterministic
+Initial String: 01011100
+Tree Depth: 44
+Total Transitions Simulated: 68
+Measured nondeterminism: 1.5454545454545454
+String accepted in 44
+q001011100 
+_q11011100 
+q3_x011100 
+_q4x011100 _q5x011100 
+_xq4011100 _xq5011100 
+_xxq111100 _xqrej011100 
+_xq3xx1100 
+_q3xxx1100 
+q3_xxx1100 
+_q4xxx1100 _q5xxx1100 
+_xq4xx1100 _xq5xx1100 
+_xxq4x1100 _xxq5x1100 
+_xxxq41100 _xxxq51100 
+_xxxxq2100 _xxxqrej1100 
+_xxxx1q200 
+_xxxxq31x0 
+_xxxq3x1x0 
+_xxq3xx1x0 
+_xq3xxx1x0 
+_q3xxxx1x0 
+q3_xxxx1x0 
+_q4xxxx1x0 _q5xxxx1x0 
+_xq4xxx1x0 _xq5xxx1x0 
+_xxq4xx1x0 _xxq5xx1x0 
+_xxxq4x1x0 _xxxq5x1x0 
+_xxxxq41x0 _xxxxq51x0 
+_xxxxxq2x0 _xxxxqrej1x0 
+_xxxxxxq20 
+_xxxxxq3xx 
+_xxxxq3xxx 
+_xxxq3xxxx 
+_xxq3xxxxx 
+_xq3xxxxxx 
+_q3xxxxxxx 
+q3_xxxxxxx 
+_q4xxxxxxx _q5xxxxxxx 
+_xq4xxxxxx _xq5xxxxxx 
+_xxq4xxxxx _xxq5xxxxx 
+_xxxq4xxxx _xxxq5xxxx 
+_xxxxq4xxx _xxxxq5xxx 
+_xxxxxq4xx _xxxxxq5xx 
+_xxxxxxq4x _xxxxxxq5x 
+_xxxxxxxq4_ _xxxxxxxq5_ 
+_xxxxxxq3x_ _xxxxxxx_qacc_ 
+_xxxxxq3xx_ 
+
+Machine Name: {w | w has the same number of 0's and 1's} Deterministic
+Initial String: 01011100
+Tree Depth: 43
+Total Transitions Simulated: 44
+Measured nondeterminism: 1.0232558139534884
+String accepted in 43
+q001011100 
+_q11011100 
+q3_x011100 
+_q4x011100 
+_xq4011100 
+_xxq111100 
+_xq3xx1100 
+_q3xxx1100 
+q3_xxx1100 
+_q4xxx1100 
+_xq4xx1100 
+_xxq4x1100 
+_xxxq41100 
+_xxxxq2100 
+_xxxx1q200 
+_xxxxq31x0 
+_xxxq3x1x0 
+_xxq3xx1x0 
+_xq3xxx1x0 
+_q3xxxx1x0 
+q3_xxxx1x0 
+_q4xxxx1x0 
+_xq4xxx1x0 
+_xxq4xx1x0 
+_xxxq4x1x0 
+_xxxxq41x0 
+_xxxxxq2x0 
+_xxxxxxq20 
+_xxxxxq3xx 
+_xxxxq3xxx 
+_xxxq3xxxx 
+_xxq3xxxxx 
+_xq3xxxxxx 
+_q3xxxxxxx 
+q3_xxxxxxx 
+_q4xxxxxxx 
+_xq4xxxxxx 
+_xxq4xxxxx 
+_xxxq4xxxx 
+_xxxxq4xxx 
+_xxxxxq4xx 
+_xxxxxxq4x 
+_xxxxxxxq4_ 
+_xxxxxxx_qacc_ 
+
+Machine Name: a*b*c* Deterministic
+Initial String: abccccd
+Tree Depth: 8
+Total Transitions Simulated: 8
+Measured nondeterminism: 1.0
+String rejected in 8
+
+Machine Name: a*b*c* Nondeterministic
+Initial String: aabcccc
+Tree Depth: 9
+Total Transitions Simulated: 50
+Measured nondeterminism: 5.555555555555555
+String accepted in 9
+q0aabcccc 
+aq0abcccc aq1abcccc aq2abcccc aq3abcccc 
+aaq0bcccc aaq1bcccc aaq2bcccc aaq3bcccc aqrejabcccc aqrejabcccc aqrejabcccc 
+aabq1cccc aabq2cccc aabq3cccc aabq1cccc aabq2cccc aabq3cccc aaqrejbcccc aaqrejbcccc 
+aabqrejcccc aabcq2ccc aabcq3ccc aabqrejcccc aabqrejcccc aabcq2ccc aabcq3ccc aabqrejcccc 
+aabccq2cc aabccq3cc aabcqrejccc aabccq2cc aabccq3cc aabcqrejccc 
+aabcccq2c aabcccq3c aabccqrejcc aabcccq2c aabcccq3c aabccqrejcc 
+aabccccq2_ aabccccq3_ aabcccqrejc aabccccq2_ aabccccq3_ aabcccqrejc 
+aabccccqrej_ aabcccc_qacc_ aabccccqrej_ aabcccc_qacc_ 
+
+

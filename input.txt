@@ -1,0 +1,12 @@
+aaa 100 a_plus.csv
+aab 100 a_plus.csv
+aaa 100 a_plus_DTM.csv
+aaab 100 a_plus_DTM.csv
+01011100 100 equal_01s.csv
+01011101110 100 equal_01s.csv
+01011100 100 equal_01s_DTM.csv
+010111001011 100 equal_01s_DTM.csv
+abccccd 100 abc_star_DTM.csv
+abcccc 100 abc_star_DTM.csv
+aabcccc 100 abc_star.csv
+aabdecccc 100 abc_star.csv
