@@ -115,7 +115,7 @@ def output(configs, ntm, tape, end_type):
     print(f"Initial String: {tape}")
     print(f"Tree Depth: {len(configs)-1}")
     print(f"Total Transitions Simulated: {sum([len(x) for x in configs])}")
-    print(f"Measured nondeterminism: {sum([len(x) for x in configs]) / (len(configs)-1)}")
+    print(f"Measured nondeterminism: {sum([len(x) for x in configs if x != []]) / (len([x for x in configs if x != []]))}")
     if end_type == 'accepted':
         print(f"String accepted in {len(configs)-1}")
         for level in configs:
