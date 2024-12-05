@@ -9,5 +9,6 @@ aaab 100 data_a_plus_DTM_kyleteam.csv
 abccccd 100 data_abc_star_DTM_kyleteam.csv
 abcccc 100 data_abc_star_DTM_kyleteam.csv
 aabcccc 100 data_abc_star_kyleteam.csv
+abc 100 data_abc_star_kyleteam.csv
 aabdecccc 100 data_abc_star_kyleteam.csv
 aaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccc 50 data_abc_star_kyleteam.csv
