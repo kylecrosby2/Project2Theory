@@ -118,15 +118,15 @@ def output(configs, ntm, tape, end_type):
     print(f"Measured nondeterminism: {sum([len(x) for x in configs if x != []]) / (len([x for x in configs if x != []]))}")
     if end_type == 'accepted':
         print(f"String accepted in {len(configs)-1}")
-        for level in configs:
-            p = ''
-            for c in level:
-                p += ''.join(c) + ' '
-            print(p)
     elif end_type == 'rejected':
         print(f"String rejected in {len(configs)-1}")
     elif end_type == 'limit':
         print(f"Execution stopped after {len(configs)}")
+    for level in configs:
+        p = ''
+        for c in level:
+            p += ''.join(c) + ' '
+        print(p)
 
 
 def main():
