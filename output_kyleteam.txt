@@ -200,3 +200,10 @@ Total Transitions Simulated: 26
 Measured nondeterminism: 5.2
 String rejected in 5
 
+Machine Name: a*b*c* Nondeterministic
+Initial String: aaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbcccccccccccccc
+Tree Depth: 51
+Total Transitions Simulated: 427
+Measured nondeterminism: 8.211538461538462
+Execution stopped after 52
+
